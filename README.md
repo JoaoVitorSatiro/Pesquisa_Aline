@@ -10,10 +10,14 @@ Nesta pesquisa abordaremos temas como permissões, actives e sensores dentro do 
 
 
 ## Sensores do Android Studio
+
 Em todos os dispositivos elétricos existem sensores para fins de auxílio no dia a dia na vida de quem precisa. Entre esses sensores existem tanto no hardware como no software e no Android Studio os sensores são divididos em três tipos:
-Sensores de Movimento: capta movimentos de aceleração dos eixos xyz, por exemplo acelerômetro, gravidade, vetor rotacional etc.
-Sensores de Ambiente: capta parâmetros ambientais, tudo relacionado a área onde se encontra o aparelho, por exemplo temperatura ambiental, iluminação, umidade, isso inclui também barômetros, fotômetros e termômetros.
-Sensores de Posição: medem a posição física/localização do dispositivo, incluem sensores de orientação e magnetômetros.
+
+* `Sensores de Movimento:` capta movimentos de aceleração dos eixos xyz, por exemplo acelerômetro, gravidade, vetor rotacional etc.
+
+* `Sensores de Ambiente:` capta parâmetros ambientais, tudo relacionado a área onde se encontra o aparelho, por exemplo temperatura ambiental, iluminação, umidade, isso inclui também barômetros, fotômetros e termômetros.
+
+* `Sensores de Posição:` medem a posição física/localização do dispositivo, incluem sensores de orientação e magnetômetros.
 Entre tantos sensores disponíveis nem todos os dispositivos possuem todos os sensores, mas serão apresentados cada um dos sensores e onde cada um se encaixa entre as divisões faladas acima.
 
 #### Os Principais Tipos de Sensores
@@ -112,7 +116,6 @@ TYPE_TEMPERATURE: feito para hardware, serve para medir a temperatura do disposi
 - TYPE_PROXIMITY: mede a distância por proximidade de um objeto ao dispositivo em cm.
 ````
 
-
 #### *Sintaxe para identificar qualquer sensor no Android Studio: sensorManager = (SensorManager) getSystemService (Context.SENSOR_SERVICE);*
 
 
@@ -135,6 +138,40 @@ SensorEvent: é uma classe que cria um objeto para determinado evento, disponibi
 SensorEventListener: usa interface para criar dois métodos de call-back (eventos de entrada) recebendo notificações quando esses eventos mudarem.
 ````
 
+## Permissões do Android Studio
+
+As permissões do app ajudam a apoiar a privacidade do usuário protegendo o seguinte: Dados restritos, como o estado do sistema e os dados de contato dos usuários. Ações restritas, como a conexão a um dispositivo pareado e a gravação de áudio. As permissões necessárias são declaradas com o elemento <permission>.
+
+### Quais são as principais permissões disponíveis? 
+
+* `Permissão de Localização:` acessa a localização do aparelho.
+* `Permissão de Câmera:` acessa a câmera para tirar fotos ou gravar vídeos.
+* `Permissão de Armazenamento:` acessa o armazenamento do aparelho.
+* `Permissão de Microfone:` acessa o microfone para gravar áudio.
+* `Permissão de Sensores:` acessa todos os sensores disponíveis no aparelho.
+* `Permissão de Contatos:` acessa os contatos do dispositivo.
+* `Permissão de Telefone:` acessa o telefone para gerenciar chamadas ou ligações.
+* `Permissões de Mensagens:` acessa as mensagens para gerenciar conversas.
+* `Permissões de Conexão à Internet:` acessa as conexões de internet para ver registros de wifi.
+* `Permissões de Notificações:` acessa notificações para gerenciar notificações do dispositivo.
+* `Permissões de instalação:` dão ao app acesso limitado a dados restritos ou permitem que o app execute ações restritas que afetam o sistema ou outros apps.
+* `Permissões normais:` são permissões em que o aplicativo autoria acesso de dados a mais para executar alguma ação dentro de outros aplicativos ou o que está em uso.
+* `Permissões de assinatura:` alguns serviços do aplicativo requerem serviços bônus ou privilegiados que o serviço normal não proporciona, assim funciona a assinatura para esses serviços extras.
+* `Permissões de execução:` são permissões que concede acesso a outros tipos de ações restritas que podem acabar alterando o sistema implementado do aplicativo, essa permissão necessita do consentimento para acessá-las. 
+* `Permissões especiais:` permissões especiais são um conjunto de operações escolhidas pelo usuário mantendo-as ativadas. 
+* `Grupo de Permissões:` se baseia em um grupo com permissões que são relacionadas, assim quando o usuário ativar alguma permissão essas permissões relacionadas aparecem na mesma interface.
+
+### Quais recursos são necessários?
+
+Existem vários recursos apresentados num aplicativo, para complementar conteúdos tudo isso baseado nas configurações do dispositivo e serão apresentados alguns desses recursos logo a seguir:
+
+* `Recursos de animação:` apresentam animações aparentes quando acessadas.
+Recursos de estado de cor: apresentam mudança de cores com base no estado obtido.
+* `Recursos de drawables:` apresentam vários gráficos diferentes no layout.
+* `Recursos de layout:` apresentam a interface do aplicativo.
+* `Recursos de string:` apresentam diferentes tipos de estilos e formatações para textos.
+* `Recursos de ID:` definem um identificador único para componentes do aplicativo.
+* `Recursos de menu:` apresenta o menu do aplicativo.
 
 
 
