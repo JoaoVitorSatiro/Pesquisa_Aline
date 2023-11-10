@@ -1,5 +1,5 @@
 > # Pesquisa_Aline
-> Nome: Carolina de Oliveira ALves, João Vítor Sátiro Pardin --> 2º Desenvolvimento de Sistemas.
+> Nome: Carolina de Oliveira Alves, João Vítor Sátiro Pardin --> 2º Desenvolvimento de Sistemas.
 # Pesquisa sobre permissões e sensores.
 
 
@@ -140,7 +140,13 @@ SensorEventListener: usa interface para criar dois métodos de call-back (evento
 
 ## Permissões do Android Studio
 
-As permissões do app ajudam a apoiar a privacidade do usuário protegendo o seguinte: Dados restritos, como o estado do sistema e os dados de contato dos usuários. Ações restritas, como a conexão a um dispositivo pareado e a gravação de áudio. As permissões necessárias são declaradas com o elemento <permission>.
+As permissões do app ajudam a apoiar a privacidade do usuário protegendo o seguinte: Dados restritos, como o estado do sistema e os dados de contato dos usuários. Ações restritas, como a conexão a um dispositivo pareado e a gravação de áudio. As permissões necessárias são declaradas com o elemento "<permission>".
+
+* `Permissões normais:` são permissões em que o aplicativo autoria acesso de dados a mais para executar alguma ação dentro de outros aplicativos ou o que está em uso.
+* `Permissões de assinatura:` alguns serviços do aplicativo requerem serviços bônus ou privilegiados que o serviço normal não proporciona, assim funciona a assinatura para esses serviços extras.
+* `Permissões de execução:` são permissões que concede acesso a outros tipos de ações restritas que podem acabar alterando o sistema implementado do aplicativo, essa permissão necessita do consentimento para acessá-las. 
+* `Permissões especiais:` permissões especiais são um conjunto de operações escolhidas pelo usuário mantendo-as ativadas. 
+* `Grupo de Permissões:` se baseia em um grupo com permissões que são relacionadas, assim quando o usuário ativar alguma permissão essas permissões relacionadas aparecem na mesma interface.
 
 ### Quais são as principais permissões disponíveis? 
 
@@ -155,11 +161,7 @@ As permissões do app ajudam a apoiar a privacidade do usuário protegendo o seg
 * `Permissões de Conexão à Internet:` acessa as conexões de internet para ver registros de wifi.
 * `Permissões de Notificações:` acessa notificações para gerenciar notificações do dispositivo.
 * `Permissões de instalação:` dão ao app acesso limitado a dados restritos ou permitem que o app execute ações restritas que afetam o sistema ou outros apps.
-* `Permissões normais:` são permissões em que o aplicativo autoria acesso de dados a mais para executar alguma ação dentro de outros aplicativos ou o que está em uso.
-* `Permissões de assinatura:` alguns serviços do aplicativo requerem serviços bônus ou privilegiados que o serviço normal não proporciona, assim funciona a assinatura para esses serviços extras.
-* `Permissões de execução:` são permissões que concede acesso a outros tipos de ações restritas que podem acabar alterando o sistema implementado do aplicativo, essa permissão necessita do consentimento para acessá-las. 
-* `Permissões especiais:` permissões especiais são um conjunto de operações escolhidas pelo usuário mantendo-as ativadas. 
-* `Grupo de Permissões:` se baseia em um grupo com permissões que são relacionadas, assim quando o usuário ativar alguma permissão essas permissões relacionadas aparecem na mesma interface.
+
 
 ### Quais recursos são necessários?
 
@@ -173,5 +175,35 @@ Recursos de estado de cor: apresentam mudança de cores com base no estado obtid
 * `Recursos de ID:` definem um identificador único para componentes do aplicativo.
 * `Recursos de menu:` apresenta o menu do aplicativo.
 
+
+# Actions para uso em intents implícitas.
+As actions ou Ações é a definição de como algo deve ser feito ou deve acontecer. As actions no geral em intents implícitas não nomeiam nenhum componente específico, mas declaram o que deve realizar, permitindo que um componente de outro aplicativo qualquer a processe. 
+
+# Quais são os tipos e finalidades?
+ACTION_VIEW: é usada quando houver informações de que uma atividade possa ser vizualizada ao usuário, como uma foto para exibição em um aplicativo de galeria.
+
+ACTION_EDIT: Forneçe acesso para edição de dados fornecidos.
+
+ACTION_SEND: Usada para o compartilhamento de dados que o usuário possa compartilhar por meio de outro aplicativo.
+
+ACTION_DIAL: Essa ação é de discar um número que foi informado ao usuario.
+
+ACTION_CALL: Inicia uma chamada no aplicativo.
+
+ACTION_SENDTO: Sendo usada para enviar dados a um destino específico.
+
+ACTION_VIEW_SETTINGS: Essa ação abre a configurações do dispositivo ou aplicativo.
+
+ACTION_SEARCH: Essa ação executa uma pesquisa.
+
+ACTION_WEB_SEARCH: Essa ação inicia uma busca na web.
+
+ACTION_PICK: Sendo usada para permitir que o usuário escolha uma opção de uma lista qualquer.
+
+ACTION_GET_CONTENT: Permite que o usuário crie os dados enquanto eles são executados, por exemplo, gravar um som.
+
+ACTION_MAIN: É uma ação princiapl que começa como o ponto de entrada, assim não espera receber dados.
+
+ACTION_CAMERA: Inicia um aplicativo de câmera para tirar fotos ou gravar vídeos.
 
 
