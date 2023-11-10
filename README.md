@@ -154,6 +154,7 @@ As permissões do app ajudam a apoiar a privacidade do usuário protegendo o seg
 #### Quais são as principais permissões disponíveis? 
 
 * `Permissão de Localização:` acessa a localização do aparelho.
+  
 * `Permissão de Câmera:` acessa a câmera para tirar fotos ou gravar vídeos.
 * `Permissão de Armazenamento:` acessa o armazenamento do aparelho.
 * `Permissão de Microfone:` acessa o microfone para gravar áudio.
@@ -171,6 +172,7 @@ As permissões do app ajudam a apoiar a privacidade do usuário protegendo o seg
 Existem vários recursos apresentados num aplicativo, para complementar conteúdos tudo isso baseado nas configurações do dispositivo e serão apresentados alguns desses recursos logo a seguir:
 
 * `Recursos de animação:` apresentam animações aparentes quando acessadas.
+  
 * `Recursos de estado de cor:` apresentam mudança de cores com base no estado obtido.
 * `Recursos de drawables:` apresentam vários gráficos diferentes no layout.
 * `Recursos de layout:` apresentam a interface do aplicativo.
