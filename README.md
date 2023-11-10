@@ -1,6 +1,9 @@
+> [!NOTE]
 > # Pesquisa_Aline
 > Nome: Carolina de Oliveira Alves, João Vítor Sátiro Pardin --> 2º Desenvolvimento de Sistemas.
-# Pesquisa sobre permissões e sensores.
+<hr>
+
+ ># Pesquisa sobre permissões e sensores.
 
 
 
@@ -148,7 +151,7 @@ As permissões do app ajudam a apoiar a privacidade do usuário protegendo o seg
 * `Permissões especiais:` permissões especiais são um conjunto de operações escolhidas pelo usuário mantendo-as ativadas. 
 * `Grupo de Permissões:` se baseia em um grupo com permissões que são relacionadas, assim quando o usuário ativar alguma permissão essas permissões relacionadas aparecem na mesma interface.
 
-### Quais são as principais permissões disponíveis? 
+#### Quais são as principais permissões disponíveis? 
 
 * `Permissão de Localização:` acessa a localização do aparelho.
 * `Permissão de Câmera:` acessa a câmera para tirar fotos ou gravar vídeos.
@@ -163,12 +166,12 @@ As permissões do app ajudam a apoiar a privacidade do usuário protegendo o seg
 * `Permissões de instalação:` dão ao app acesso limitado a dados restritos ou permitem que o app execute ações restritas que afetam o sistema ou outros apps.
 
 
-### Quais recursos são necessários?
+#### Quais recursos são necessários?
 
 Existem vários recursos apresentados num aplicativo, para complementar conteúdos tudo isso baseado nas configurações do dispositivo e serão apresentados alguns desses recursos logo a seguir:
 
 * `Recursos de animação:` apresentam animações aparentes quando acessadas.
-Recursos de estado de cor: apresentam mudança de cores com base no estado obtido.
+* `Recursos de estado de cor:` apresentam mudança de cores com base no estado obtido.
 * `Recursos de drawables:` apresentam vários gráficos diferentes no layout.
 * `Recursos de layout:` apresentam a interface do aplicativo.
 * `Recursos de string:` apresentam diferentes tipos de estilos e formatações para textos.
@@ -176,34 +179,75 @@ Recursos de estado de cor: apresentam mudança de cores com base no estado obtid
 * `Recursos de menu:` apresenta o menu do aplicativo.
 
 
-# Actions para uso em intents implícitas.
+## Actions para uso em intents implícitas.
+
 As actions ou Ações é a definição de como algo deve ser feito ou deve acontecer. As actions no geral em intents implícitas não nomeiam nenhum componente específico, mas declaram o que deve realizar, permitindo que um componente de outro aplicativo qualquer a processe. 
 
-# Quais são os tipos e finalidades?
+#### Quais são os tipos e finalidades?
+```
 ACTION_VIEW: é usada quando houver informações de que uma atividade possa ser vizualizada ao usuário, como uma foto para exibição em um aplicativo de galeria.
-
+```
+```
 ACTION_EDIT: Forneçe acesso para edição de dados fornecidos.
-
+```
+```
 ACTION_SEND: Usada para o compartilhamento de dados que o usuário possa compartilhar por meio de outro aplicativo.
-
+```
+```
 ACTION_DIAL: Essa ação é de discar um número que foi informado ao usuario.
-
+```
+```
 ACTION_CALL: Inicia uma chamada no aplicativo.
-
+```
+```
 ACTION_SENDTO: Sendo usada para enviar dados a um destino específico.
-
+```
+```
 ACTION_VIEW_SETTINGS: Essa ação abre a configurações do dispositivo ou aplicativo.
-
+```
+```
 ACTION_SEARCH: Essa ação executa uma pesquisa.
-
+```
+```
 ACTION_WEB_SEARCH: Essa ação inicia uma busca na web.
-
+```
+```
 ACTION_PICK: Sendo usada para permitir que o usuário escolha uma opção de uma lista qualquer.
-
+```
+```
 ACTION_GET_CONTENT: Permite que o usuário crie os dados enquanto eles são executados, por exemplo, gravar um som.
-
+```
+```
 ACTION_MAIN: É uma ação princiapl que começa como o ponto de entrada, assim não espera receber dados.
-
+```
+```
 ACTION_CAMERA: Inicia um aplicativo de câmera para tirar fotos ou gravar vídeos.
+```
+<hr>
 
+## Conclusão 
 
+Podemos concluir com essa pesquisa os principais tipos de Permissões, Sensores e Actions. Abordamos as permissões essenciais que garantem a segurança e privacidade dos usuários, destacando categorias como localização, câmera, armazenamento e sensores. A compreensão das permissões é crucial para o desenvolvimento responsável de aplicativos, assegurando que as ações restritas sejam executadas com o consentimento adequado. As actions em intents implícitas, oferecendo uma visão abrangente de como as ações orientam o comportamento dos aplicativos. Desde visualizar e editar dados até compartilhar e discar Revelando a complexidade e a interconexão entre permissões, sensores e actions, fundamentais para o desenvolvimento de aplicativos móveis eficientes e respeitosos à privacidade do usuário.
+<hr>
+
+## Referências
+
+* https://acervolima.com/como-exibir-a-lista-de-sensores-presentes-em-um-dispositivo-android-programaticamente/
+
+* https://developer.android.com/guide/topics/sensors/sensors_environment?hl=pt-br
+
+* https://developer.android.com/guide/topics/sensors/sensors_position?hl=pt-br
+
+* https://developer.android.com/guide/topics/sensors/sensors_overview?hl=pt-br
+
+* https://developer.android.com/guide/topics/permissions/overview?hl=pt-br
+
+* https://developer.android.com/guide/topics/resources/providing-resources?hl=pt-br
+
+* https://developer.android.com/reference/android/content/Intent#ACTION_SEARCH
+
+* https://developer.android.com/training/camera/camera-intents?hl=pt-br
+
+* https://developer.android.com/training/keyboard-input/style?hl=pt-br
+
+* https://developer.android.com/reference/android/content/Intent#ACTION_DIAL
